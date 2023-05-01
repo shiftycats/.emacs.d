@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: class
+# key: class
+# --
+class ${1:`(file-name-base (buffer-file-name))`} extends ${2:Object};
+
+$0

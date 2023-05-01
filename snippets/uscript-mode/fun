@@ -1,0 +1,7 @@
+# key: fun
+# name: fun
+# --
+$1function $3${4:Foo}($5)
+{
+    $0
+}

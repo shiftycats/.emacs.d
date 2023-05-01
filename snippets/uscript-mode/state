@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: state
+# name: state
+# --
+state ${FooState}
+{
+    $0
+}

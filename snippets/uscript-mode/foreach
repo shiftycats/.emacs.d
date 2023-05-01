@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: foreach
+# key: foreach
+# --
+foreach ${1:Iterator}($2)
+{
+    $0
+}

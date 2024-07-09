@@ -11,6 +11,7 @@
   (evil-want-keybinding nil)
   (evil-want-fine-undo t)
   (evil-shift-width 2)
+  (evil-undo-system 'undo-redo)
 
   :config
   (setq evil-emacs-state-modes (delq 'ibuffer-mode evil-emacs-state-modes))
